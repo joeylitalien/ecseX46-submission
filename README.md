@@ -59,7 +59,7 @@ within the terminal. This script can take a few seconds to run depending on the 
 
 The result is a standalone submission file `a1_123456789.html` containing all of your rendered images. Depending on the assignment, this file can be somewhat heavy since all your image data is contained within the file. __Make sure the output is correct before submitting your assignment!__
 
-## Example submission
+## Submission example
 
 To see a sample submission, have a look at `sample.html`. Running the script with the default configuration file should yield a new submission which is identical to it.
 
