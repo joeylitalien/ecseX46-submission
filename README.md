@@ -5,22 +5,24 @@
 The submission script relies on a few Python modules and the OpenEXR library. We provide instructions for Linux, macOS, and Windows, assuming you have access to [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) on Windows 10. If you have problems running the script, please email the TAs or see them at their office hours. __Don't wait until the deadline to make sure this script works; test it beforehand!__
 
 ### Linux / WSL
+To install [OpenEXR](http://www.openexr.com/) and [pip](https://pip.pypa.io/en/stable/), run
 ```bash
-sudo apt-get install libopenexr-dev  # OpenEXR library
-sudo apt-get install python-pip      # Python package manager
+sudo apt-get install libopenexr-dev
+sudo apt-get install python-pip
 ```
 
 ### macOS
+On macOS, you need to install [Homebrew](https://brew.sh/) first in order to install OpenEXR.
 
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"  # Homebrew
-brew install openexr                                # OpenEXR library
-curl https://bootstrap.pypa.io/get-pip.py | python  # Python package manager
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install openexr
+curl https://bootstrap.pypa.io/get-pip.py | python
 ```
 
-You can verify that `pip` is correctly installed by typing `pip` in the command-line. To install the requirements for the tools, run
+You can verify that `pip` is correctly installed by typing `pip --version` in the command-line. To install the requirements for the tools, run
 ```bash
-pip install --user -r requirements.txt  # Install Python modules
+pip install --user -r requirements.txt
 ```
 You can check that all packages have been installed by typing `pip list`.
 
