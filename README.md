@@ -7,8 +7,7 @@ The submission script relies on a few Python modules and the OpenEXR library. We
 ### Linux / WSL
 To install [OpenEXR](http://www.openexr.com/) and [pip](https://pip.pypa.io/en/stable/), run
 ```bash
-sudo apt-get install libopenexr-dev
-sudo apt-get install python-pip
+sudo apt-get install python-pip libopenexr-dev zlib1g-dev
 ```
 
 ### macOS
